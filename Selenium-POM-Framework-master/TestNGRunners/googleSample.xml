@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite annotations="JDK" name="sample - Test Suite" thread-count="1" verbose="3">
+    <test name="sample - Firefox">
+        <parameter name="Browser" value="firefox"/>
+        <classes>
+            <class name="GoogleTestSuites.sampleTestCases"/>
+        </classes>
+    </test>
+</suite>
